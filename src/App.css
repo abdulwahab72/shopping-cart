@@ -1,0 +1,460 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600&display=swap");
+.App {
+  text-align: center;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+/* this class is used for background image; */
+.img {
+  background-image: url(../src/Background.jpg);
+  position: relative;
+  width: 1440px;
+  height: 1175px;
+  left: 0px;
+  top: 0px;
+}
+/* this class is used for logo; */
+.hed {
+  position: absolute;
+  width: 125px;
+  height: 33px;
+  left: 110px;
+  top: 53px;
+  font-family: "Noto Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+  color: #ffffff;
+}
+/* this class is for text after logo; */
+.tit {
+  position: absolute;
+  /* width: 73px; */
+  height: 25px;
+  /* left: 555px; */
+  top: 57px;
+  font-family: "Noto Sans", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 25px;
+  color: #c6c0c0;
+  text-decoration: none;
+}
+/* this class is used for icon after texts; */
+.ic {
+  /* box-sizing: border-box; */
+  position: absolute;
+  left: 91.32%;
+  top: 7.31%;
+  /* bottom: 98.29%; */
+}
+/* this class is used for text; */
+.txt {
+  position: absolute;
+  width: 706px;
+  left: 366px;
+  top: 220px;
+  font-family: "Noto Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 70px;
+  text-align: center;
+  color: #ffffff;
+}
+/* this class is used for text; */
+.txt1 {
+  position: absolute;
+  width: 867px;
+  /* height: 64px; */
+  left: 286px;
+  top: 420px;
+  font-family: "Noto Sans", sans-serif;
+  /* font-style: normal; */
+  /* font-weight: 400; */
+  font-size: 20px;
+  /* line-height: 32px; */
+  text-align: center;
+  color: #c6c0c0;
+}
+/* this class is used for image that is used in text; */
+.img3 {
+  position: absolute;
+  width: 397.06px;
+  height: 89.55px;
+  left: 675px;
+  top: 280.56px;
+  /* border: 6px solid #F08C00; */
+}
+/* this class is used for search engine; */
+.srch {
+  box-sizing: border-box;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  /* left: 473px;
+top: 500px; */
+  background: rgba(222, 222, 222, 0.2);
+  border: 2px solid rgba(255, 255, 255, 0.4);
+  border-radius: 45px;
+  outline: none;
+  padding-left: 1rem;
+  color: white;
+}
+/* this class is used for whole search engine; */
+.srch1 {
+  position: absolute;
+  left: 473px;
+  top: 500px;
+  width: 493px;
+  height: 64px;
+  /* background: #F08C00; */
+}
+/* this class is used for search engine's image and icon; */
+.srch1 img,
+.srch1 i {
+  position: absolute;
+}
+/* this class is used for image icon that is available on seating sofa in pic; */
+.imgii {
+  position: absolute;
+  /* left: 316px;
+  top: 654px; */
+}
+/* this class is used for text after image ; */
+.txt6 {
+  position: absolute;
+  width: 230px;
+  left: 170px;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+}
+/* this class is used after txt6; */
+.txt7 {
+  position: absolute;
+  width: 318px;
+  left: 170px;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 12px;
+  color: #686161;
+}
+/* this class is used for image icon that is available on after seating sofa pic; */
+.ic9 {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  left: 110px;
+}
+/* this class is used for text ; */
+.txt10 {
+  position: absolute;
+  width: 489px;
+  left: 110px;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+}
+/* this class is used for text ; */
+.txt11 {
+  position: absolute;
+  left: 110px;
+  top: 1580px;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+}
+/* this class is used for text ; */
+.txt12 {
+  position: absolute;
+  width: 500px;
+  height: 84px;
+  left: 110px;
+  top: 1600px;
+  font-family: "Noto Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 15px;
+  color: #686161;
+}
+/* this class is used for image; */
+.imgvii {
+  position: absolute;
+}
+/* this class is used for text ; */
+.txt13 {
+  position: absolute;
+  left: 110px;
+  top: 1670px;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+  color: #f08c00;
+  text-decoration: none;
+}
+.txt14 {
+  position: absolute;
+  left: 120px;
+  font-family: "Noto Sans", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  color: #2e2a2a;
+  top: 5px;
+  text-decoration: none;
+}
+.txt15 {
+  position: absolute;
+  left: 125px;
+  top: 45px;
+  font-family: "Noto Sans";
+  font-weight: 400;
+  font-size: 12px;
+  color: #565050;
+  text-decoration: none;
+}
+.bkg {
+  position: absolute;
+  width: 275px;
+  height: 145px;
+  left: 110px;
+  top: 1855px;
+  background: #fbfbfb;
+  border-radius: 8px;
+}
+.imgix {
+  position: absolute;
+  top: 85px;
+}
+.img5 {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  left: 904px;
+  top: 1815px;
+}
+.img6 {
+  position: absolute;
+}
+.txt16 {
+  position: absolute;
+  left: 581px;
+  top: 2160px;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+}
+.txt17 {
+  position: absolute;
+  left: 485px;
+  top: 2220px;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 16px;
+  text-decoration: none;
+}
+.txt18 {
+  position: absolute;
+  top: 2220px;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 16px;
+  color: #8c8585;
+  text-decoration: none;
+}
+.imgix3 {
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  left: 501px;
+  top: 2250px;
+}
+.bkg1 {
+  position: absolute;
+  width: 380px;
+  height: 324px;
+  left: 110px;
+  top: 2300px;
+  background: #fbfbfb;
+  border-radius: 8px;
+}
+.bkg2 {
+  padding: 8px 12px;
+  gap: 10px;
+  position: absolute;
+  height: 38px;
+  left: 30px;
+  top: 25px;
+  background: #e34848;
+  border-radius: 4px;
+}
+.txt23 {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  color: #ffffff;
+  text-decoration: none;
+}
+.imgxi {
+  position: absolute;
+  left: 55px;
+  top: 45px;
+}
+.imgxii {
+  position: absolute;
+  width: 15px;
+}
+.txt24 {
+  position: absolute;
+  left: -10px;
+  top: 310px;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 15px;
+  color: #686161;
+  text-decoration: none;
+}
+.txt25 {
+  position: absolute;
+  width: 131px;
+  left: -10px;
+  top: 340px;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  letter-spacing: 0.01em;
+  text-decoration: none;
+}
+.txt26 {
+  position: absolute;
+  width: 104px;
+  height: 22px;
+  left: 130px;
+  top: 343px;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  text-decoration-line: line-through;
+  color: #8c8585;
+}
+.bkg3 {
+  position: absolute;
+  width: 380px;
+  height: 324px;
+  top: 2300px;
+  background: #fbfbfb;
+  border-radius: 8px;
+}
+.btn {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 12px 16px;
+  gap: 10px;
+  position: absolute;
+  width: 120px;
+  height: 46px;
+  left: 656px;
+  top: 3190px;
+  background: #ededed;
+  border-radius: 4px;
+}
+.txt27 {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  text-decoration-line: underline;
+  color: #5f5d5d;
+}
+.imgxiv {
+  position: absolute;
+  width: 778px;
+  height: 402px;
+  top: 3330px;
+}
+.txt28 {
+  position: absolute;
+  width: 551px;
+  left: 780px;
+  top: 3440px;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 50px;
+  color: #2e2a2a;
+}
+.txt29 {
+  position: absolute;
+  width: 449px;
+  left: 780px;
+  top: 3535px;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 16px;
+  color: #8c8585;
+}
+.div1 {
+  display: flex;
+  padding: 12px 16px;
+  position: absolute;
+  height: 46px;
+  left: 780px;
+  top: 3620px;
+  background: #f08c00;
+  border-radius: 4px;
+}
+.txt30 {
+  font-family: "Noto Sans";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  color: #ffffff;
+  text-decoration: none;
+}
+.txt31 {
+  position: absolute;
+  left: 110px;
+  top: 3780px;
+  font-family: "Noto Sans";
+  font-size: 16px;
+  color: #8c8585;
+}
+.txt32 {
+  position: absolute;
+  width: 69px;
+  height: 22px;
+  left: 1179px;
+  top: 3780px;
+  font-family: "Noto Sans";
+  text-decoration-line: underline;
+  color: #8c8585;
+}
+.App-link {
+  color: #61dafb;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
